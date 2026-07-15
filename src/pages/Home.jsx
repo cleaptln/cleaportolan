@@ -71,14 +71,14 @@ const Home = () => {
                 >
                   <Bouton content="Mon CV" icon={MdDownload} width="120px" />
                 </a>
-                <a className="flex cursor-pointer">
+                {/* <a className="flex cursor-pointer">
                   <Bouton
                     onClick={() => navigateWithTransition("/alternance")}
                     content="À propos de l'alternance"
                     icon={MdOutlineWork}
                     width="220px"
                   />
-                </a>
+                </a> */}
               </div>
             </div>
             {/* description */}
@@ -92,9 +92,7 @@ const Home = () => {
               <div className="md:max-w-[680px]">
                 <p className="text-primary/70 leading-relaxed mb-8">
                   Je suis Cléa Portolan, diplômée BUT MMI, parcours
-                  développement web et dispositifs interactifs. J'intègre à la
-                  rentrée le Master Direction Artistique, stratégie et design de
-                  marque à La Manu (Amiens).
+                  développement web et dispositifs interactifs.
                   <br />
                   <strong className="text-primary">
                     Activement en recherche d'alternance pour Septembre 2026,
@@ -139,7 +137,7 @@ const Home = () => {
         </section>
       </main>
 
-      {/* Badge fixed — à placer n'importe où dans le return, il se positionne tout seul*/}
+      {/* Badge fixed — à placer n'importe où dans le return, il se positionne tout seul
       <button
         onClick={() => navigateWithTransition("/alternance")}
         className="fixed bottom-8 right-8 z-50 flex items-center gap-3 bg-background/90 backdrop-blur-sm border border-primary/30 hover:border-primary text-primary rounded-2xl px-5 py-3 cursor-pointer transition-all duration-300 hover:bg-background shadow-lg"
@@ -148,7 +146,7 @@ const Home = () => {
         <span className="text-sm font-sans tracking-wide">
           Recherche alternance
         </span>
-      </button>
+      </button> */}
       <footer className="flex w-full justify-center gap-2 text-primary/50 align-center py-5">
         <p>© Cléa Portolan | Tous droits réservés.</p>
         <a
